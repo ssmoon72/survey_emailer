@@ -7,7 +7,7 @@ const app = express();
 
 //create new route handler watching for incoming http request
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ bye: 'buddy' });
 });
 
 //heroku injects environment variables. this line is so heroku can dynamically assign a port. if there is no environment variable, use port 5000
